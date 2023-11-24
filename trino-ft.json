@@ -1,0 +1,17 @@
+[{"Classification":
+    "trino-config",
+"Properties":
+    {
+    "retry-policy":
+        "TASK"
+    }
+},
+
+{"Classification":
+    "trino-exchange-manager",
+    "Properties":
+    {
+	    "exchange.use-local-hdfs":"true",
+	    "exchange.base-directories":"/exchange"
+    }
+}]
